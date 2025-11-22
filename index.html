@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для тебе ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <div class="heart-container">
+            <div class="heart"></div>
+        </div>
+        
+        <h1 class="title">Для найкращої дівчини у світі</h1>
+        
+        <div class="message-box">
+            <p class="message">
+                Ти особлива для мене. Кожен день із тобою — це подарунок.
+                Твоя усмішка освітлює мій світ, а твій сміх — найпрекрасніша мелодія.
+            </p>
+            <p class="message">
+                Дякую, що ти є в моєму житті! ❤️
+            </p>
+        </div>
+
+        <div class="timer-section">
+            <h2>Ми разом вже:</h2>
+            <div class="timer">
+                <div class="timer-item">
+                    <span class="timer-value" id="days">0</span>
+                    <span class="timer-label">днів</span>
+                </div>
+                <div class="timer-item">
+                    <span class="timer-value" id="hours">0</span>
+                    <span class="timer-label">годин</span>
+                </div>
+                <div class="timer-item">
+                    <span class="timer-value" id="minutes">0</span>
+                    <span class="timer-label">хвилин</span>
+                </div>
+                <div class="timer-item">
+                    <span class="timer-value" id="seconds">0</span>
+                    <span class="timer-label">секунд</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="reasons-section">
+            <h2>Чому я тебе кохаю:</h2>
+            <div class="reasons-scroll-container">
+                <ul class="reasons-list" id="reasonsList">
+                    <!-- Список будет заполнен через JavaScript -->
+                </ul>
+            </div>
+        </div>
+
+        <button class="surprise-button" onclick="showSurprise()">
+            Натисни мене! 💝
+        </button>
+
+        <div id="surprise" class="surprise-message">
+            <h2>Я кохаю тебе! ❤️</h2>
+            <p>Ти — моє все!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
